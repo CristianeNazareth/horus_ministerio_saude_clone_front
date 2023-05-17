@@ -1,0 +1,27 @@
+
+
+header.header {
+    display: block;
+    /* border: 2px solid black; */
+
+    width: auto;
+    height: 38px;
+    background-color: #629cc4;
+    text-align: center;
+}
+
+span.header_spanN {
+    font: bold 20px/2 verdana;
+    color: #fff;
+    padding: 0 0 0 8px;
+    margin: 0;
+
+}
+
+span.header_spanD {
+    font: bold 14px verdana;
+    color: #fff;
+    padding: 5px 0 0 5px;
+    margin: 0;
+
+}

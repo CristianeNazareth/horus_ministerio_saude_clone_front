@@ -1,0 +1,55 @@
+
+:root {
+    --bg-header: #629CC4;
+    --bg-button: #CEDDF3;
+    --bg-footer: #3B739A;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+/* 
+.app {
+    display: grid;
+    border: 1px solid red;
+    grid-template-areas: 
+    'header header header'
+    'span span span'
+    'footer footer footer'
+    ;
+    grid-template-columns: ifr;
+    grid-template-rows: 
+    1fr 
+    1fr 
+    1fr
+    ;
+}
+header.header {
+    grid-area: header;
+}
+span.content {
+    grid-area: main;
+}
+aside.logo {
+    grid-area: logo;
+}
+footer.footer {
+    grid-area: footer;
+} */
+
