@@ -1,6 +1,37 @@
 
 
 footer.footer {
-    background-color: #D0E4BF;
-    color: #C8DBBF;
+    display: block;
+    flex-direction: row;
+    background-color: #3B739A;
+    color: #CEDDE3;
+    width: 100%;
+    bottom: 0;
+    position: relative !important;
+    float: left;
+
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 15px; */
+    font-size: 13px;
+    font-family: sans-serif;
+}
+p.container_info {
+    color: #f1f1f1;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px!important;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 1.2;
+    margin: 0;
+    padding: 5px;
+}
+a {
+    color: #f1f1f1;
 }
