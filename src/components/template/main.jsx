@@ -11,14 +11,19 @@ export const Main = props =>
     
                 <form action="">
                     <div>
-                        <label htmlFor="">
-                            Email:
-                            <input type="text" name="email" />
-                        </label>
-                        <label htmlFor="">
-                            Senha de Acesso:
-                            <input type="text" name="password" />
-                        </label>
+                        <ul>
+                            <label htmlFor="field_email">
+                                <p className='txt_email'>Email:</p>
+                                <input type="text" id='field_email' name="email" />
+                            </label>                            
+                        </ul>
+
+                        <ul>
+                            <label htmlFor="field_password">
+                                <p className='txt_pass'>Senha de Acesso:</p>
+                                <input type="number" id="field_password" name="password" />
+                            </label>
+                        </ul>
                     </div>
     
                         <div className='btn'>
