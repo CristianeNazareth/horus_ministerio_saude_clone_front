@@ -3,7 +3,7 @@ import React from 'react'
 
 import Header from '../components/header/header.jsx'
 import TextLogin from '../components/textLogin/textLogin'
-import AcessLogin from '../components/acessLogin/acessLogin'
+import AcessLogin from '../components/accessLogin/accessLogin'
 import Nav from '../components/nav/nav'
 import { Button } from '../components/Button'
 import Footer from '../components/footer/footer'

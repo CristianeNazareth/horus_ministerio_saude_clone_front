@@ -1,0 +1,43 @@
+
+
+main.content {
+    padding: 0 0 20px 0;
+    text-align: left;
+    height: auto !important;
+    float: left;
+    width: auto;
+    border: 1px solid #d1cdc4;
+    margin: auto;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-block-end: 1em;
+}
+
+span.span_content, span.emphasis, form {
+    font-family: Verdana;
+    font-size: 11px;
+    color: #545454;
+}
+span.emphasis {
+    font-weight: bold;
+}
+span.emphasis {
+    line-height: 1.2rem;
+}
+.link_emphasis {
+    color: #0080C0;
+    cursor: pointer;
+    font-size: 11px;
+    font-family: Verdana;
+}
+span.link_emphasis :hover {
+    color: #FFBF8F;
+}
+

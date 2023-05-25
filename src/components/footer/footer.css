@@ -15,7 +15,9 @@ footer.footer {
 div.container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
     align-items: center;
     /* padding: 15px; */
     font-size: 13px;
@@ -34,4 +36,12 @@ p.container_info {
 }
 a {
     color: #f1f1f1;
+}
+
+
+div.container_footer {
+    /* border: 1px solid red; */
+    margin: auto !important;
+    width: auto;
+    max-width: 925px;
 }

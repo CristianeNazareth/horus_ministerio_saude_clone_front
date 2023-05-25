@@ -4,7 +4,7 @@ import React from 'react'
 
 
 
-export const Header = props => 
+export const Header = () => 
     
     <header className='header'>
         <span class="header_spanN">SCAWEB</span>
@@ -13,4 +13,4 @@ export const Header = props =>
 
 
 
-// export default Header;
+export default Header;
