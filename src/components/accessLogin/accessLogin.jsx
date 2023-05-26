@@ -19,11 +19,14 @@ export const AcessLogin = () => (
             </label>
         </div>
 
-        {/* <div className="">
-            <Button iconUrl="https://scaweb.saude.gov.br/scaweb/imagens/ico_acessar.gif" text="Acessar" ></Button>
-            <Button iconUrl="https://scaweb.saude.gov.br/scaweb/imagens/ico_alterar.gif" text="Alterar"></Button>
-            <Button iconUrl="https://scaweb.saude.gov.br/scaweb/imagens/ico_lembrar.gif" text="Lembrar"></Button>
-        </div> */}
+        <div className="button_login">
+
+            <div className="button_access"><Button iconUrl="https://scaweb.saude.gov.br/scaweb/imagens/ico_acessar.gif" text="Acessar" ></Button></div>
+
+            <div className="button_access"><Button iconUrl="https://scaweb.saude.gov.br/scaweb/imagens/ico_alterar.gif" text="Alterar"></Button></div>
+
+            <div className="button_access"><Button iconUrl="https://scaweb.saude.gov.br/scaweb/imagens/ico_lembrar.gif" text="Lembrar"></Button></div>
+        </div>
 
     </form>
 )

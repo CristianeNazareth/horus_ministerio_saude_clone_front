@@ -1,11 +1,20 @@
 
-div, label {
+label, .button_login {
     display: flex;
     flex-direction: row;
-    /* align-items: flex-end; */
-    /* padding-left: 10px; */
     font-size: 11px Verdana;
-    /* border: 2px solid red; */
+}
+.button_login {
+    /* border: 1px solid blue; */
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 10px;
+    width: 83%;
+}
+
+.btn {
+    display: flex;
+    max-height: 12px;
 }
 
 label {
@@ -16,8 +25,7 @@ label {
     border-bottom: 1px solid #ebe9e5;
     width: 140px;
     /* height: 13px; */
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
 
 .txt_pass {
@@ -52,3 +60,5 @@ label {
     margin-left: 0.5rem;
 
 }
+
+
