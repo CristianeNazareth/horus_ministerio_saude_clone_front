@@ -1,5 +1,5 @@
 import React from "react"
-import './textLogin.css'
+import './TextLogin.css'
 
 
 

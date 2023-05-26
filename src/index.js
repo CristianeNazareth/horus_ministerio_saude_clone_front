@@ -6,13 +6,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-/* eslint-disable no-var */
   
-import  {App} from './main/app'
+import  {App} from './Main/App'
   
-/* eslint-enable no-var */
-// import { Logo } from './components/template/logo';
-// import {Footer} from './components/template/footer';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -22,10 +18,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <h1>Testing...</h1>
     
   </React.StrictMode>
-
   
 );
 

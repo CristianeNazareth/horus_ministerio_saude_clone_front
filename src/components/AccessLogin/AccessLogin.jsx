@@ -1,5 +1,5 @@
 import React from "react"
-import './accessLogin.css'
+import './AccessLogin.css'
 import { Button } from "../Button";
 
 export const AcessLogin = () => (
