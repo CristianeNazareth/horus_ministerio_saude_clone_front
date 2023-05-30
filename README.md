@@ -1,7 +1,7 @@
 🔗 [clique aqui para acessar](https://cristianenazareth.github.io/horus_ministerio_saude_clone_front)
 
 <p align="center">
-  <img alt="projeto Horus" src="/home/cristiane/Documents/meus projetos/frontend/projetos-Real-andamento/projeto_horus_front/.github/preview.png" width="100%">
+  <img alt="projeto Horus" src=".github/preview.png" width="100%">
 </p>
 
 
