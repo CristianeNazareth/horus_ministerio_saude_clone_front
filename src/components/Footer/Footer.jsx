@@ -15,7 +15,7 @@ export const Footer = () =>
                     <br />
                     Fale conosco:
                     {/* <br /> */}
-                    <a href="http://datasus.saude.gov.br/fale-conosco" title="http://datasus.saude.gov.br/fale-conosco" target="_blank"> http://datasus.saude.gov.br/fale-conosco</a>
+                    <a href="http://datasus.saude.gov.br/fale-conosco" title="http://datasus.saude.gov.br/fale-conosco" rel="noopener noreferrer" target="_blank"> http://datasus.saude.gov.br/fale-conosco</a>
                 </p>
                 <div className="logo">
                     <img src={logo} alt="logo" />
