@@ -3,8 +3,8 @@ import './TextLogin.css'
 
 
 
-export const TextLogin = () => (
-
+export const TextLogin = () => {
+  return (
     <form action="">
         <span className='emphasis'>ORIENTAÇÕES SOBRE SENHA DE ACESSO!</span>
         <br />
@@ -36,7 +36,6 @@ export const TextLogin = () => (
         <a className='link_emphasis' href="http://www.java.com/pt_BR/" rel="noopener noreferrer" target="_blank">http://www.java.com/pt_BR/</a>
 </span>
     </form>
-
-)
+)}
 
 export default TextLogin;
